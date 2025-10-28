@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  
 <title>Exercise 7: Banh Mi, menus, and layout</title>
    <!--Created by Joy Zhang on Oct 28, 2025 -->
 <!-- This is embed code for Google fonts, take a look at  https://fonts.google.com/ for more info, you can just pick fonts and get an embed code which you use here. See how I am controlling them from <style> most of the CSS is just pasted in from Google and I have made tweaks to the weights and added other bits. This is what we will learn next week.-->
@@ -10,6 +11,19 @@
   
   
 <style>
+  .container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: dodgerblue;
+  padding: 10px;
+}
+  .container div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
 
   a {
   text-decoration: none;
@@ -83,13 +97,16 @@ ul {
   
 <img src="banh-mi.jpg" alt="image of a sandwich">
   
-     
+   
 <h2>Classic Pork Banh Mi</h2>
 <p>Tender marinated pork topped with crisp pickled vegetables, fresh cilantro, and a smear of pâté on a perfectly crusty baguette. A traditional favorite that balances savory, sweet, and tangy flavors in every bite.</p>
+  <img src="banh-mi.jpg" alt="image of a sandwich">
 <h2>Lemongrass Chicken Banh Mi</h2>
 <p>Grilled chicken marinated in fragrant lemongrass and garlic, paired with cucumber, jalapeños, and our house mayo. Light yet satisfying, this sandwich brings bright, aromatic flavors that'll transport you straight to Saigon.</p>
+  <img src="banh-mi.jpg" alt="image of a sandwich">
 <h2>Tofu Banh Mi</h2>
 <p>Crispy pan-fried tofu glazed in sweet soy sauce, layered with daikon, carrots, and fresh herbs for a vegetarian delight. Proof that plant-based can be just as bold and craveable as any meat-filled sandwich.</p>
+  <img src="banh-mi.jpg" alt="image of a sandwich">
 <h2>Five-Spice Beef Banh Mi</h2>
 <p>Thinly sliced beef seared with aromatic five-spice blend and served with pickled vegetables and spicy Sriracha mayo. Rich, warming spices meet cool, crunchy toppings for an unforgettable flavor experience.</p>
 <footer>Because life's too short for boring sandwiches. Greg's got you covered—one crispy baguette at a time.</footer>
